@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="stdout">
+            <PatternLayout pattern="%d [%t] %-5level: %msg%n%throwable" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO" additivity="true">
+            <AppenderRef ref="stdout" />
+        </Root>
+        <Logger name="error-log" level="ERROR" additivity="true">
+            <AppenderRef ref="stdout" />
+        </Logger>
+    </Loggers>
+</Configuration>
