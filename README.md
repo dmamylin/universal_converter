@@ -6,3 +6,5 @@
 ```curl -X POST 'localhost:80/convert' -H 'Content-Type: application/json' -d '{"from":"м", "to":"км"}'```
 
 Task: https://github.com/gnkoshelev/universal-converter
+
+Created this just for fun.
